@@ -14,10 +14,16 @@ The html file will be copyied to the webserver and after you run the service, I 
 
 ### How to use the solution
 
-To use, you have to install docker and docker-compose in your machine.
+To use, you have to install git, docker and docker-compose in your machine.
+
+Just clone the repository:
+```
+git clone https://github.com/claytonnog/docker-challenge/tree/master/apache2-lorem-ipsum
+```
 
 After that, just run the following command:
 ```
+$ cd apache2-lorem-ipsum
 $ docker-compose up --build
 ```
 
