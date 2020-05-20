@@ -4,7 +4,7 @@ services:
   webserver:
       build: .
       ports:
-      - "8080:80"
+      - "8080-8089:80"
       networks:
       - net-webserver
 
