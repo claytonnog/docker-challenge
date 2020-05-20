@@ -50,6 +50,7 @@ Use the browser to test that.
 ### Improvements
 
 We also can install a balancer in front of the webserver, using HAproxy for example, to balance the traffic between the apache servers.
+
 About the scale, we can use docker swarm to scale the services as well.
 
 
