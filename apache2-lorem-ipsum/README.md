@@ -18,7 +18,7 @@ To use, you have to install git, docker and docker-compose in your machine.
 
 Just clone the repository:
 ```
-git clone https://github.com/claytonnog/docker-challenge/tree/master/apache2-lorem-ipsum
+git clone https://github.com/claytonnog/docker-challenge
 ```
 
 After that, just run the following command:
