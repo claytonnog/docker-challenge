@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  webserver:
+      build: .
+      ports:
+      - "8080:80"
+      networks:
+      - net-webserver
+
+networks: 
+  net-webserver:
+    driver: bridge
