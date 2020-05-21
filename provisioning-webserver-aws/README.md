@@ -24,9 +24,9 @@ Create the terraform file "Instance_AWS.tf" with the provided values.
 
 The file will create one ec2 instance, with the security group and the assigned key.
 
-It will open traffic to por 80 (http) and 22 (ssh) and will provide the public ip in the end.
+It will open traffic through port 80 (http) and 22 (ssh) and It will provide the public ip in the end.
 
-It will install and enable httpd too, and create a index.html file.
+It will install and enable httpd and create a index.html file.
 
 # Plan
 Run the terraform init  to initialize Terraform and download the AWS provider plugins:
